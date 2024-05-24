@@ -1,6 +1,11 @@
 import HeroSection from "../../HeroSection/HeroSection";
 import Banner from "../Banner/Banner";
+import CallUsSection from "../CallUsSection/CallUsSection";
 import Category from "../Category/Category";
+import ChefRecommends from "../ChefRecommends/ChefRecommends";
+import Featured from "../Featured/Featured";
+import PopularMenu from "../PopularMenu/PopularMenu";
+import Testimonials from "../Testimonials/Testimonials";
 
 const Home = () => {
   return (
@@ -8,6 +13,11 @@ const Home = () => {
       <Banner />
       <Category />
       <HeroSection />
+      <PopularMenu />
+      <CallUsSection />
+      <ChefRecommends />
+      <Featured />
+      <Testimonials />
     </div>
   );
 };
